@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$btn-blue: #24CCAA;
+$primary: #436a6b;
+$muted: #757575;
+$blue: #2872b9;
+$blue-dark: #184774;
+
+@mixin linearGradient($dir, $clr1, $clr2) {
+  background: linear-gradient($dir, $clr1, $clr2);
+}
+
+a {
+  color: $btn-blue!important
+}
