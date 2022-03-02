@@ -4,6 +4,8 @@ To run the project, clone the repo and run the usual npm commands for JS project
 ##### `npm install`
 ##### `npm start`
 
+`npm build`, `npm test` and `npm eject` are also available.
+
 This will open the app on:
 [http://localhost:3000](http://localhost:3000)
 
