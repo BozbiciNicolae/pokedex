@@ -13,7 +13,7 @@ const Home = () =>  {
   }, [])
 
   const loadPokemons = () => {
-    fetch(`https://pokeapi.co/api/v2/pokemon?limit=${10}`)
+    fetch(`https://pokeapi.co/api/v2/pokemon?limit=${151}`)
       .then(async (res) => await res.json())
       .then(async (r) => {
         const all = r.results.map(async (item) => {
